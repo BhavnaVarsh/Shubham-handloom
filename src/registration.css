@@ -1,0 +1,86 @@
+.MainDiv {
+  position: relative;
+  height: 100vh;
+  margin: auto;
+  background-color: #ffdc90;
+ }
+
+.RegistrationModule {
+    border-top: 8px solid #b8722d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px  grey;
+    background-color: white;
+   }
+
+   .RegistrationHeading {
+    text-align: center;
+   }
+
+   .LoginpageLink {
+    text-align: center;
+   }
+
+   .Inputbox {
+    padding: 5px;
+    border-radius: 7px;
+    width: 220px;
+    height: 23px;
+    
+
+   }
+.Email{
+  background: url(https://img.icons8.com/fluency-systems-filled/2x/sign-mail.png) no-repeat scroll 6px;
+  background-size: 20px;
+  padding-left:30px;
+  margin-bottom: 8px;
+}
+
+.Password{
+  background: url(https://img.icons8.com/ios-filled/2x/lock.png) no-repeat scroll 6px;
+  background-size: 20px;
+  padding-left:30px;
+  margin-bottom: 8px;
+}
+
+.harveer123{
+  display: flex;
+  align-items: center;
+}
+.harveer12{
+  display: flex;
+}
+   .Namingbox {
+    padding: 5px;
+    border-radius: 7px;
+    width: 114px;
+    height: 23px;
+    margin: 4px;
+   }
+
+   .genderSelection {
+    margin: 10px;
+   }
+
+   .RegisteredButton {
+    text-align: center;
+    background-color: #b8722d;
+    border: none;
+    color: white;
+    padding: 10px 16px; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+
+   }
+   .RegisteredButton:hover {
+    background-color: rgb(224, 157, 13);
+    color: white;
+  }
